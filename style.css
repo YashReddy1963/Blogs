@@ -138,39 +138,3 @@ footer{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-@media screen and (min-width: 320px) {
-    home{
-        margin: 4% 5% 6% 20%;
-        display: flex;
-        float: left;
-    }
-
-    h1{ 
-        color: #0B1320;
-        padding-top: 11%;
-        padding-left: 4%;
-        font-size: 70px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    u{
-        text-decoration: underline;
-        text-decoration-color: #1C3F60;
-        text-decoration-thickness: 2px;
-    }
-
-    ul{
-        list-style-type: none;
-        margin-bottom: 3%;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    li{
-        float: left;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 1%;
-    }
-}
