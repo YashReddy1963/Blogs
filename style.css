@@ -2,15 +2,6 @@
     margin : 0%;
     padding : 0%;
     background-color: #AFC1D0;
-    scroll-behavior: smooth;
-}
-
-a{
-    text-decoration: none;
-    position: relative;
-    color: #1C3F60;
-    cursor: pointer;
-
 }
 
 ul{
@@ -27,7 +18,15 @@ li{
     padding: 0.5%;
 }
 
-li a:after {
+a{
+    text-decoration: none;
+    color: #1C3F60;
+    position: relative;
+    cursor: pointer;
+
+}
+
+a:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -39,17 +38,17 @@ li a:after {
 
 }
 
-li a:hover:after {
+a:hover:after {
     width: 100%;
 }
 
-home{
-    margin: 4% 5% 6% 27%;
+.home{
+    margin: 4% 5% 6% 24%;
     display: flex;
     float: left;
 }
 
-h1{ 
+.home h1{ 
     color: #0B1320;
     padding-top: 11%;
     padding-left: 4%;
@@ -57,13 +56,13 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-u{
+.home u{
     text-decoration: underline;
     text-decoration-color: #1C3F60;
     text-decoration-thickness: 2px;
 }
 
-header{
+.title{
     text-decoration: underline;
     text-decoration-color: #1C3F60;
     text-decoration-thickness: 2px;
@@ -74,7 +73,7 @@ header{
 }
 
 
-main{ 
+.about{ 
     color: #0B1320;
     display: block;
     margin: 1% 10% 6% 9%;
@@ -86,35 +85,19 @@ img{
     border-radius: 4%;
 }
 
-p1 a:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #1C3F60;
-    transition: width 0.4s ease-in-out;
-
-}
-
-p1 a:hover:after {
-    width: 100%;
-}
-
-column{
+.column{
     display: flex;
     float: left;
     margin: 1% 0% 1.5% 10%;
 }
 
-column a{
+.column a{
     display: block;
-    margin-bottom: 2%;
+    margin-bottom: 0.5%;
     margin-left: 5%;
     background-color: #1C3F60;
     border-radius: 4%;
-    width: 28%;
+    width: 25%;
     text-align: center;
     padding-bottom: 2%;
     text-decoration: none;
@@ -123,7 +106,7 @@ column a{
     box-shadow: 0 0 15px black;
 }
 
-column a:hover{
+.column a:hover{
     margin-left: 3%;
     margin-right: 1.7%;
     transition: 0.5s;
@@ -138,3 +121,4 @@ footer{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
