@@ -71,6 +71,7 @@ footer{
     font-family: monospace;
     font-size: 15px;
     margin-left: 20%;
+    margin-bottom: 3%;
 }
 
 .heading{
@@ -119,50 +120,9 @@ footer{
     margin-top: 1%;
 }
 
-.img1{
-    width: 33%; 
-    margin-top: 8%;
-    margin-left: 20%;
-}
-.img2{
-    width: 18.5%; 
-    margin-left: 1%;
-    margin-top: 8%; 
-    position: absolute;
-}
-.img3{
-    width: 15%; 
-    margin-top: 1%; 
-    margin-left: 20%;
-}
-.img4{
-    width: 35.5%; 
-    margin-left: 1%; 
-    margin-top: 1%;
-}
-.img5{
-    width: 52%; 
-    margin-left: 20%; 
-    margin-top: 1%;
-}
-.img6{
-    width: 18%; 
-    margin-left: 20%; 
-    margin-top: 1%;
-}
-.img7{
-    width: 18%; 
-    margin-left: 1%; 
-    margin-top: 1%;
-}
-.img8{
-    width: 16.2%; 
-    margin-left: 1%; 
-    margin-top: 1%;
-}
 
 
-@media screen and (max-width: 482px){
+@media screen and (max-width: 360px){
   
     .navbar{
         margin: 10%;
@@ -172,10 +132,10 @@ footer{
         margin-left: 17%;
     }
     .hero_img{
-        width: 70%;
+        width: 75%;
     }
     .intro p{
-        font-size: 33px;
+        font-size: 25px;
         padding-left: 0%;
     }
     .bio{
@@ -205,45 +165,5 @@ footer{
     .division{
         margin-left: 12%;
         width: 80%;
-    }
-    .img1{
-        margin-top: 20%;
-        margin-left: 11%;
-        width: 50%;
-    }
-    .img2{
-        margin-left: 1%;
-        margin-top: 20%; 
-        width: 28%;
-    }
-    .img3{
-        width: 21%; 
-        margin-left: 17.1%;
-        margin-top: 1%; 
-    }
-    .img4{
-        width: 50%; 
-        margin-left: 1%; 
-        margin-top: 1%;
-    }
-    .img5{
-        width: 79%; 
-        margin-left: 11%; 
-        margin-top: 1%;
-    }
-    .img6{
-        width: 28%; 
-        margin-left: 11%; 
-        margin-top: 1%;
-    }
-    .img7{
-        width: 28%; 
-        margin-left: 1%; 
-        margin-top: 1%;
-    }
-    .img8{
-        width: 25%; 
-        margin-left: 1%; 
-        margin-top: 1%;
     }
 }
