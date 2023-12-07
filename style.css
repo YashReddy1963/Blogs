@@ -86,6 +86,7 @@ footer{
 .list{
     position: absolute;
     top: 17%;
+    width: 100%;
 }
 
 .list li{
@@ -112,6 +113,31 @@ footer{
     width: 50%;
 }
 
+.blog{
+    position: absolute;
+    top: 17%;
+    width: 100%;
+}
+.blog p{
+    position: absolute;
+    margin-left: 22%;
+    color: #CED9BF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.blog li{
+    margin-bottom: 2%;
+}
+.blog a{
+    color: #88b1ca;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-left: 33%;
+    text-decoration-thickness: 1px;
+}
+
 .division{
     color: #CED9BF;
     border-bottom: 0.5px solid;
@@ -125,7 +151,7 @@ footer{
 @media screen and (max-width: 450px){
   
     .navbar{
-        margin: 10%;
+        margin: 5%;
     }
     .intro{
         display: block;
@@ -161,6 +187,15 @@ footer{
         font-size: 15px;
         margin-left: 11%;
         width: 85%;
+    }
+    .blog p{
+        margin-left: 11%;
+        font-size: 15px;
+        position: absolute;
+    }
+    .blog a{
+        margin-left: 45%;
+        font-size: 15px;
     }
     .division{
         margin-left: 12%;
