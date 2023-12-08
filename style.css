@@ -175,7 +175,7 @@ footer{
         margin: 26% 10%;
     }
     .list{
-        top: 23%;
+        top: 27%;
     }
     .list li{
         margin-bottom: 3.5%;
@@ -188,14 +188,18 @@ footer{
         margin-left: 11%;
         width: 85%;
     }
+    .blog{
+        top: 27%;
+    }
     .blog p{
         margin-left: 11%;
-        font-size: 15px;
+        font-size: 19px;
         position: absolute;
     }
     .blog a{
         margin-left: 45%;
-        font-size: 15px;
+        font-size: 17px;
+        position: absolute;
     }
     .division{
         margin-left: 12%;
