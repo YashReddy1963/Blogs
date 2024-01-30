@@ -1,54 +1,70 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Yash Reddy</title>
-        <meta name="description" content="">
-        <link rel="icon" type="image/x-icon" href="img/logo.ico">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Reddy</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+</head>
+
+<body class="m-0 p-0 bg-[#050618]">
+
+    <!--Open Nav button-->
+    <div class="mx-80 my-2 md:hidden">
+        <span class="text-3xl text-[#DCF2F1] cursor-pointer fixed" onclick="openNav()">&#9776;</span>
+    </div>
+
+
+
+    <!--Navigation bar-->
+    <div id="sideNav" class="h-full w-0 fixed z-10 overflow-x-hidden top-0 left-0 bg-[#DCF2F1] duration-100 md:overflow-x-visible md:relative md:w-full md:bg-[#050618]">
+        <a href="javascript:void(0)" onclick="closeNav()" class="text-5xl text-[#0F1035] cursor-pointer mx-80 my-2 md:hidden">&times;</a>
         
-    <!--HOME section-->
-    <section style="width: 100%; height: 100%;">  
-            <div class="navbar">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./project.html">PROJECTS</a></li>
-                <li><a href="./blog.html">BLOG</a></li>
-            </div>
-    </section>   
-
-        <div class="intro">
-            <img src="img/yash.jpg" class="hero_img">
-            <p>Hello! <br> I am Yash Munurreddy <br> aka Yash Reddy</p>
+        <!--Navigation bar text-->
+        <div class="relative text-2xl text-[#050618] text-center w-full top-10 mt-28 md:flex md:top-0 md:mt-4 md:gap-5 md:mx-72 2xl:mx-7">
+            <a href="/index.html" class="nav-content">HOME</a>
+            <a href="/project.html" class="nav-content">PROJECTS</a>
+            <a href="/blog.html" class="nav-content">BLOGS</a>
+            <a href="#" class="nav-content">PHOTOGRAPHY</a>
         </div>
-        
-        <div class="bio">
+    </div>
+
+
+    <!--Head section-->
+    <section id="home" class="w-full h-full">
+
+        <div class="2xl:flex 2xl:items-center 2xl:justify-center 2xl:m-10">
+            <!--Image-->
+            <div class="flex items-center justify-center">
+                <img src="img/yash.jpg" alt="image" class="rounded-full size-72 mt-10 md:mt-0 lg:size-80">
+            </div>
+
+            <!--Heading-->
+            <h1 class="text-2xl m-5 text-[#799edf] font-bold font-mono text-center  lg:text-4xl">Hello! <br> I am Yash Munurreddy <br> aka Yash Reddy</h1>
+        </div>
+
+        <!--Intro para-->
+        <div class="m-5 leading-loose text-[#DCF2F1] font-mono md:m-7 lg:text-xl 2xl:mx-60">
             <p>A Programmer and hobbyist Photographer</p>
+            <br>
             <p>
-                I began my coding journey at the age of 17 when I randomly came across
-                a book called 'C Language' by Yashwant Kanetkar. Intrigued by it, I 
-                delved deeper into the world of programming. Subsequently, I learned 
-                additional languages such as C++ and Java, and I am currently exploring 
-                front-end development as well.
+                I began my coding journey at the age of 17 when I randomly came across a book called 'C Language' by Yashwant Kanetkar. Intrigued by it, I delved deeper into the world of programming. Subsequently, I learned additional languages such as C++ and Java, and I am currently exploring front-end development as well.
             </p>
-            
+            <br>
             <p>
-                I enjoy spending my free time outdoors,
-                capturing <a href="https://www.instagram.com/yashreddy1963/" class="underline" target="_blank">pictures</a>, as I believe that each photograph encapsulates 
-                a hidden emotion. Additionally, I am learning and developing skills 
-                in video editing and cinematography, activities that I find both 
-                enjoyable and fulfilling.
+                I enjoy spending my free time outdoors, capturing <a href="https://www.instagram.com/yashreddy1963/" class="underline hover:text-[#365486]" target="_blank">pictures</a>, as I believe that each photograph encapsulates a hidden emotion. Additionally, I am learning and developing skills in video editing and cinematography, activities that I find both enjoyable and fulfilling.
             </p>
         </div>
     </section>
 
-    <footer>
-        <a href="https://github.com/YashReddy1963" target="_blank" class="underline">Github</a>, <a href="https://www.linkedin.com/in/yash-m-81371624a/" target="_blank" class="underline">LinkedIn</a>, <a href="https://t.me/Yashreddy1963" target="_blank" class="underline">Telegram</a>
+    <footer class="m-5 text-[#DCF2F1] font-mono md:m-7 2xl:mx-60">
+        <a href="https://github.com/YashReddy1963" target="_blank" class="underline hover:text-[#365486]">Github</a>, 
+        <a href="https://www.linkedin.com/in/yash-m-81371624a/" target="_blank" class="underline hover:text-[#365486]">LinkedIn</a>, 
+        <a href="https://t.me/Yashreddy1963" target="_blank" class="underline hover:text-[#365486]">Telegram</a>
     </footer>
 
-    </body>
+</body>
 </html>

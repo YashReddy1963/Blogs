@@ -1,7 +1,10 @@
-function opennav(){
-    document.getElementsByClassName("navbar").style.width="100%";
+//Navigation bar opening 
+function openNav(){
+    document.getElementById("sideNav").style.width = "100%";
+
 }
 
-function closenav(){
-    document.getElementsByClassName("navbar").style.width= "0%";
+//Navigation bar closing
+function closeNav(){
+    document.getElementById("sideNav").style.width = "0%";
 }
