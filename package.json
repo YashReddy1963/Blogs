@@ -1,8 +1,4 @@
 {
-  "scripts": {
-    "start": "vite",
-    "build": "vite build"
-  },
 
   "devDependencies": {
     "autoprefixer": "^10.4.16",
