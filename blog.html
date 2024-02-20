@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Reddy</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/style.js"></script>
+</head>
+
+<body class="m-0 p-0 bg-[#050618]">
+
+    <!--Open Nav button-->
+    <div class="mx-80 my-2 md:hidden">
+        <span class="text-3xl text-[#DCF2F1] cursor-pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+
+
+    <!--Navigation bar-->
+    <div id="sideNav" class="h-full w-0 fixed z-10 overflow-x-hidden top-0 left-0 bg-[#DCF2F1] duration-100 md:overflow-x-visible md:relative md:w-full md:bg-[#050618]">
+        <a href="javascript:void(0)" onclick="closeNav()" class="text-5xl text-[#0F1035] cursor-pointer mx-80 my-2 md:hidden">&times;</a>
+        
+        <!--Navigation bar text--> 
+        <div class="relative text-2xl text-[#050618] text-center w-full top-10 mt-28 md:flex md:top-0 md:mt-4 md:gap-5 md:mx-72 2xl:mx-7">
+            <a href="./index.html" class="nav-content">HOME</a>
+            <a href="./project.html" class="nav-content">PROJECTS</a>
+            <a href="./blog.html" class="nav-content">BLOGS</a>
+            <a href="#" class="nav-content">PHOTOGRAPHY</a>
+        </div>
+    </div>
+
+
+    <!--Blog section-->
+    <section id="blogs" class="w-full h-full">
+
+        <!--heading-->
+        <h2 class="text-2xl text-[#799edf] font-bold font-mono m-5 underline md:m-8 lg:text-3xl">Blogs</h2>
+
+        <!--contents-->
+        <div class="m-5 p-4 leading-relaxed bg-[#DCF2F1] rounded-2xl text-[#0F1035] shadow-[0_0_20px] shadow-[#365486] hover:shadow-[#7FC7D9] cursor-pointer md:w-auto md:m-8 last:text-xl 2xl:bg-[#050618] 2xl:text-[#DCF2F1]">
+            <a href="https://medium.com/@yashmunurreddy63/exploring-the-internet-of-things-a-deep-dive-into-iot-8f7fa0904db9" target="_blank">
+                <h3 class="text-xl underline font-bold">2nd Feb 2023</h3>
+                <p>Exploring Internet Of Things</p>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+</html>

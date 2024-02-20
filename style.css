@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-content{
+        @apply text-[#0F1035] block mb-6 font-mono hover:text-[#365486];
+    }
+    @media screen and (min-width: 768px) {
+        .nav-content{
+            @apply text-[#DCF2F1];
+        }
+    }
+}
