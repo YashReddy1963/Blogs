@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech &amp; Thought by Yash</title>
-    <link>https://yashreddy.xyz/</link>
-    <description>Recent content on Tech &amp; Thought by Yash</description>
+    <title>Posts on Tech &amp; Thought by Yash</title>
+    <link>https://yashreddy.xyz/posts/</link>
+    <description>Recent content in Posts on Tech &amp; Thought by Yash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yashreddy.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yashreddy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Organizing First Meet-up</title>
       <link>https://yashreddy.xyz/posts/solapurfoss-fisrt-meetup/</link>
