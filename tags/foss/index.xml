@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech &amp; Thought by Yash</title>
-    <link>https://yashreddy1963.github.io/Blogs/</link>
-    <description>Recent content on Tech &amp; Thought by Yash</description>
+    <title>FOSS on Tech &amp; Thought by Yash</title>
+    <link>https://yashreddy1963.github.io/Blogs/tags/foss/</link>
+    <description>Recent content in FOSS on Tech &amp; Thought by Yash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 23:30:05 +0530</lastBuildDate><atom:link href="https://yashreddy1963.github.io/Blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 23:30:05 +0530</lastBuildDate><atom:link href="https://yashreddy1963.github.io/Blogs/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Hackathon</title>
       <link>https://yashreddy1963.github.io/Blogs/posts/fosshack/</link>

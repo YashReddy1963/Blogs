@@ -2,10 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yashreddy1963.github.io/Blogs/categories/</loc>
+    <loc>https://yashreddy1963.github.io/Blogs/tags/foss/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/tags/hackathon/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/posts/fosshack/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/posts/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
   </url><url>
     <loc>https://yashreddy1963.github.io/Blogs/tags/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
   </url><url>
     <loc>https://yashreddy1963.github.io/Blogs/</loc>
+    <lastmod>2024-08-14T23:30:05+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/tags/meetup/</loc>
+    <lastmod>2024-03-24T23:30:21+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/posts/solapurfoss/</loc>
+    <lastmod>2024-03-24T23:30:21+05:30</lastmod>
+  </url><url>
+    <loc>https://yashreddy1963.github.io/Blogs/categories/</loc>
   </url>
 </urlset>
