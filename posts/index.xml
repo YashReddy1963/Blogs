@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Tech &amp; Thought by Yash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 23:30:05 +0530</lastBuildDate><atom:link href="https://yashreddy1963.github.io/Blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Sep 2024 21:28:00 +0530</lastBuildDate><atom:link href="https://yashreddy1963.github.io/Blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IndiaFOSS 2024</title>
+      <link>https://yashreddy1963.github.io/Blogs/posts/indiafoss-2k24/</link>
+      <pubDate>Tue, 10 Sep 2024 21:28:00 +0530</pubDate>
+      
+      <guid>https://yashreddy1963.github.io/Blogs/posts/indiafoss-2k24/</guid>
+      <description>So finally I attend and volunteered at IndiaFOSS conference Journey In April 2023, Mangesh, Jacob, and I attended the PuneFOSS conference. Inspired by this event, we decided to organize something similar in Solapur. Our first event took place in August 2023, followed by a meetup in March 2024. During this time, I was also volunteering with FOSS United Bangalore as a video editor, where I created intro promos for the BangaloreFOSS YouTube channel and edited speaker sessions.</description>
+    </item>
+    
     <item>
       <title>My First Hackathon</title>
       <link>https://yashreddy1963.github.io/Blogs/posts/fosshack/</link>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>SolapurFOSS Meetup</title>
+      <title>Organizing first tech meetup</title>
       <link>https://yashreddy1963.github.io/Blogs/posts/solapurfoss/</link>
       <pubDate>Sun, 24 Mar 2024 23:30:21 +0530</pubDate>
       
